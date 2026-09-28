@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Desenvolvedor Web">
+    <meta name="keywords" content="HTML5, Semântica, desenvolvimento">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <h1>Mirella Ferreira Giusti- Desenvolvedor</h1>
+        <nav>
+            <!--Navegação principal-->
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                 <li><a href="#sobre mim">sobre</a></li>
+                 <li><a href="#contato">contato</a></li>
+                   </ul>
+                </nav>
+    </header>
+    <hr>
+
+    <!--Conteúdo principal-->
+    <main>
+        <!--Seção principal-->
+        <section id="inicio">
+            <h2>Sobre mim</h2>
+         <img src="foto.jpg" alt="Minha foto" width="150" e height="150">
+         <p>Sou estudante de desenvolvimento de sistemas no Senai.</p>
+         <p>Tenho conhecimento em HTML, CSS, e agora estou aprendendo JavaScript<p>
+        </section>
+        <hr>
+
+        <!--Artigo independente-->
+        <article>
+            <header>
+                <h2>Minhas habilidades</h2>
+                 <ul>
+        <li>HTML5 Semântico</li>
+        <li>CSS3 e Responsividade</li>
+        <li>Formulários e Validação</li>
+        <li>Estruturação de Dados</li>
+    </ul>
+            </header>
+
+            <p>HTML5 trouxe elementos semânticos importantes...</p>
+
+            <footer>
+                <p>Por: Autor do Artigo</p>
+            </footer>
+            </article>
+            <hr>
+
+            <!-- Meus projetos -->
+<article>
+    <h2>Meus projetos</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Projeto</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sistema de chamados</td>
+                <td>HTML, CSS</td>
+                <td>Concluído</td>
+                <td>
+                    <a href="#">
+                        Ver Projeto</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Loja Smart Watch</td>
+                <td>HTML, CSS, JavaScript</td>
+                <td>Concluído</td>
+                <td>
+                    <a href="#">
+                        Ver Projeto</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Loja de games Projeto-Loja-de-Games-Retro</td>
+                <td>Verifica-o-de-idade</td>
+                <td>Atividade-tipografiaCores</td>
+                <td>
+                    <a href="https://github.com/MirellaFGiusti/Projeto-Loja-de-Games-Retro">
+                        Ver Projeto</a>
+                    <a href="https://github.com/MirellaFGiusti/Verifica-o-de-idade"> 
+                        Ver Projeto</a>
+                    <a href="https://github.com/MirellaFGiusti/Atividade-tipografiaCores"> 
+                        Ver Projeto</a>
+                    
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</article>
+
+</section>
+</main>
+
+<hr>
+
+<section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="trabalho">Oportunidade de Trabalho</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem"
+                            rows="5" cols="30" required></textarea>
+                    </p>
+
+                    <button type="submit">Enviar Mensagem</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+                 <!--Rodapé da página-->
+                <footer>
+                    <p>&copy; 2026 Meta desenvolvido durante o curso do senai.</p>
+                    <address>
+                        Contato:<a href="mailto:contato:mirellaferreiragiusti@gmail.com">contato:mirellaferreiragiusti@gmail.com</a>
+                        </address>
+                        </footer>
+                
+</body>
+</html>
